@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        const a="     Harika kancharla       ";
+        console.log(a.trim()) //Harika kancharla
+        console.log(a.trimStart())//Harika kancharla.......
+        console.log(a.trimLeft())//Harika kancharla.......
+        console.log(a.trimEnd())//.....Harika kancharla
+        console.log(a.trimRight())//.....Harika kancharla
+
+    
+        const b="Harika";
+        console.log(b.charAt(-2));//   
+        console.log(b.charAt[9]);//undefined
+        console.log(b.indexOf("y"))//-1
+        console.log(b.length);//6
+        console.log(b.startsWith("Har"));//true
+        console.log(b.endsWith("myra"))//false
+        console.log(b.at(-2)); //k
+        console.log(b.toLowerCase()); //harika
+        console.log(b.toUpperCase()); //HARIKA
+        console.log(b.indexOf("k"));//4
+        console.log(b.lastIndexOf("a"));//5
+
+
+        const c="   HK     ";
+        const d=c.trimEnd();
+        console.log(c);//...HK.....
+        console.log(d);//...HK
+        console.log(c.trim());//HK
+
+        const e=c.trim();
+        console.log(e);//HK
+
+    </script>
+</body>
+</html>
